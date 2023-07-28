@@ -20,7 +20,7 @@ great,
 shortcast,
 grip,
 pictopia,
-jobit,
+vidverse,
 tripguide,
 python,
 cpp,
@@ -245,25 +245,27 @@ const projects = [
     live_demo_link: "https://pictopiaaa.netlify.app/"
 },
 {
-    name: "Job IT",
+    name: "VidVerse",
     description:
-    "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "web application that provides a platform for users to share and discover short videos. Inspired by TikTok, VidVerse offers a similar user experience, allowing users to upload, like, comment, and explore videos created by others.",
     tags: [
     {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
     },
     {
-        name: "restapi",
+        name: "TypeScript",
         color: "green-text-gradient",
     },
     {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
     },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: vidverse,
+    source_code_link: "https://github.com/shubhjhawar/VidVerse",
+    live_demo_link: "https://vid-verse-lmmk.vercel.app/"
+
 },
 {
     name: "Trip Guide",

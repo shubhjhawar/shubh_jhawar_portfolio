@@ -36,7 +36,7 @@ import great from "./company/great.png";
 import grip from "./company/grip.png";
 
 import pictopia from "./pictopia.png";
-import jobit from "./jobit.png";
+import vidverse from "./vidverse.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -75,6 +75,6 @@ export {
   great,
   grip,
   pictopia,
-  jobit,
+  vidverse,
   tripguide,
 };
