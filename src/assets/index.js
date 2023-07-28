@@ -37,7 +37,9 @@ import grip from "./company/grip.png";
 
 import pictopia from "./pictopia.png";
 import vidverse from "./vidverse.png";
-import tripguide from "./tripguide.png";
+import coderverse from "./coderverse.png";
+import beatbox from "./beatbox.png";
+import illusiogen from "./illusiogen.png";
 
 export {
   logo,
@@ -76,5 +78,7 @@ export {
   grip,
   pictopia,
   vidverse,
-  tripguide,
+  beatbox,
+  illusiogen,
+  coderverse
 };

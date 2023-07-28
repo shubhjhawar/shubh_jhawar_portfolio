@@ -28,24 +28,26 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, l
           />
         </div>
 
-        <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-1">
-          <div
-            onClick={() => window.open(live_demo_link, '_blank')}
-            className='violet-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-          >
-            <img src={link} alt="link" className='w-1/2 h-1/2 object-contain'/>
-          </div>
-
-          <div
-            onClick={() => window.open(source_code_link, '_blank')}
-            className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-          >
-            <img src={github} alt="github" className='w-1/2 h-1/2 object-contain'/>
-          </div>
-        </div>
-
         <div className='mt-5'>
-           <h3 className="font-bold text-white text-[24px]">{name}</h3>
+          <div className='relative flex flex-row justify-between w-full'>
+                  <h3 className="font-bold text-white text-[24px]">{name}</h3>
+
+                  <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-1 my-auto">
+                              <div
+                                onClick={() => window.open(live_demo_link, '_blank')}
+                                className='violet-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                              >
+                                <img src={link} alt="link" className='w-1/2 h-1/2 object-contain'/>
+                              </div>
+
+                              <div
+                                onClick={() => window.open(source_code_link, '_blank')}
+                                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                              >
+                                <img src={github} alt="github" className='w-1/2 h-1/2 object-contain'/>
+                              </div>
+                    </div>
+          </div>
            <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
         
