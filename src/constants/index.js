@@ -19,7 +19,7 @@ galaxy,
 great,
 shortcast,
 grip,
-carrent,
+pictopia,
 jobit,
 tripguide,
 python,
@@ -223,25 +223,26 @@ const testimonials = [
 
 const projects = [
 {
-    name: "Car Rent",
+    name: "PicTopia",
     description:
-    "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "web application inspired by Pinterest, providing users with a platform to discover, save, and comment on inspiring images. Built using React and JavaScript, Pictopia allows users to create collections, browse through a wide variety of images, and engage with the community through comments.",
     tags: [
     {
         name: "react",
         color: "blue-text-gradient",
     },
     {
-        name: "mongodb",
+        name: "javascript",
         color: "green-text-gradient",
     },
     {
-        name: "tailwind",
+        name: "sanity",
         color: "pink-text-gradient",
     },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pictopia,
+    source_code_link: "https://github.com/shubhjhawar/pictopia",
+    live_demo_link: "https://pictopiaaa.netlify.app/"
 },
 {
     name: "Job IT",

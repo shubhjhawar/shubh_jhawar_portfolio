@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import link from "./link.jpg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -34,7 +35,7 @@ import galaxy from "./company/galaxy.png";
 import great from "./company/great.png";
 import grip from "./company/grip.png";
 
-import carrent from "./carrent.png";
+import pictopia from "./pictopia.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -45,6 +46,7 @@ export {
   mobile,
   web,
   github,
+  link,
   menu,
   close,
   css,
@@ -72,7 +74,7 @@ export {
   galaxy,
   great,
   grip,
-  carrent,
+  pictopia,
   jobit,
   tripguide,
 };
