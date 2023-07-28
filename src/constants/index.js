@@ -8,13 +8,12 @@ typescript,
 html,
 css,
 reactjs,
-redux,
 tailwind,
-nodejs,
+django,
 mongodb,
 git,
-figma,
-docker,
+dsa,
+next,
 western,
 galaxy,
 great,
@@ -23,7 +22,11 @@ grip,
 carrent,
 jobit,
 tripguide,
-threejs,
+python,
+cpp,
+sql,
+postgresql,
+machine,
 } from "../assets";
 
 export const navLinks = [
@@ -74,6 +77,14 @@ const technologies = [
     icon: javascript,
 },
 {
+    name: "Python",
+    icon: python,
+},
+{
+    name: "C++",
+    icon: cpp,
+},
+{
     name: "TypeScript",
     icon: typescript,
 },
@@ -82,36 +93,36 @@ const technologies = [
     icon: reactjs,
 },
 {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next JS",
+    icon: next,
 },
 {
     name: "Tailwind CSS",
     icon: tailwind,
 },
 {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Django",
+    icon: django,
+},
+{
+    name: "SQL",
+    icon: sql,
 },
 {
     name: "MongoDB",
     icon: mongodb,
 },
 {
-    name: "Three JS",
-    icon: threejs,
+    name: "Machine Learning",
+    icon: machine,
+},
+{
+    name: "Data Structures and Algorithms",
+    icon: dsa,
 },
 {
     name: "git",
     icon: git,
-},
-{
-    name: "figma",
-    icon: figma,
-},
-{
-    name: "docker",
-    icon: docker,
 },
 ];
 
