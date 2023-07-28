@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from '../utils/motion';
+import { fadeIn, textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience,index }) => {
   return (
@@ -47,13 +47,15 @@ const ExperienceCard = ({ experience,index }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div
-        variants={textVariant()}
-      >
-        <p className={`${styles.sectionSubText}`}>what I have done so far</p>
-        <h2 className={`${styles.sectionHeadText}`}>Work Experience.</h2>
-
-      </motion.div>
+        <motion.div
+          variants={textVariant(0.1)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once:false, amount:0.25}}
+        >
+          <p className={`${styles.sectionSubText}`}>what I have done so far</p>
+          <h2 className={`${styles.sectionHeadText}`}>Work Experience.</h2>
+        </motion.div>
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
@@ -66,4 +68,4 @@ const Experience = () => {
   )
 }
 
-export default SectionWrapper(Experience, "experience");
+export default SectionWrapper(Experience, "work");

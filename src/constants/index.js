@@ -147,7 +147,7 @@ const experiences = [
     company_name: "Great Future Technologies Pvt. Ltd.",
     icon: great,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept 2021 - Jan 2022",
     points: [
     "Collaborated within a team of developers to create cutting-edge websites, leveraging React and JavaScript, and implemented complex functionality for six websites.",
     "Successfully met launch targets, delivering projects two weeks ahead of schedule.",
@@ -168,19 +168,19 @@ const experiences = [
     "Successfully delivered the project ahead of the agreed-upon schedule, showcasing efficient time management and adherence to deadlines."
     ],
 },
-// {
-//     title: "Data Science & Business Analytics Intern",
-//     company_name: "GRIP At The Sparks Foundation",
-//     icon: grip,
-//     iconBg: "#E6DEDD",
-//     date: "May 2021 - July 2021",
-//     points: [
-//     "Single-handedly developed a the APIs of a web application from scratch, meeting the client's demands within a 2-month internship period.",
-//     "Leveraged backend technologies, including Django and Python and efficiently collaborated with the frontend team, to create a highly performant application capable of handling 10,00+ monthly requests.",
-//     "Received positive feedback from the client, achieving a satisfaction rating of 95% or higher in project evaluations.",
-//     "Successfully delivered the project ahead of the agreed-upon schedule, showcasing efficient time management and adherence to deadlines."
-//     ],
-// },
+{
+    title: "Data Science & Business Analytics Intern",
+    company_name: "GRIP At The Sparks Foundation",
+    icon: grip,
+    iconBg: "#E6DEDD",
+    date: "Nov 2020 - Jan 2021",
+    points: [
+    "Single-handedly developed a the APIs of a web application from scratch, meeting the client's demands within a 2-month internship period.",
+    "Leveraged backend technologies, including Django and Python and efficiently collaborated with the frontend team, to create a highly performant application capable of handling 10,00+ monthly requests.",
+    "Received positive feedback from the client, achieving a satisfaction rating of 95% or higher in project evaluations.",
+    "Successfully delivered the project ahead of the agreed-upon schedule, showcasing efficient time management and adherence to deadlines."
+    ],
+},
 ];
 
 const testimonials = [
