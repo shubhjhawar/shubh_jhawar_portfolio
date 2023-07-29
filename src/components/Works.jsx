@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 const ProjectCard = ({index, name, description, tags, image, source_code_link, live_demo_link }) => {
   return (
     <motion.div
-      variants={fadeIn("up", "spring", index *0.25, 0.75)}
+      variants={fadeIn("up", "spring", index *0.25, 0.5)}
       viewport={{once:false, amount:0.25}}
       initial="hidden"
       whileInView="show"
@@ -80,7 +80,7 @@ const Works = () => {
       <div className='w-full flex'>
          <motion.p
           variants={fadeIn("", "",  0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w--3xl leading-[30px]'
+          className='mt-3 text-secondary text-[17px] w-full leading-[30px]'
          >
           Following projects showcase my skills and experience through real-world examples of my work. 
           Each project is briefly described with link to code repositories and live demos in it. 
