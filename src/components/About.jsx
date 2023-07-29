@@ -13,7 +13,7 @@ const ServiceCard = ({index, title, icon}) => {
       <motion.div
         initial="hidden"
         whileInView="show"
-        variants={fadeIn("right", "spring", 0.5 * index, 0.75 )}
+        variants={fadeIn("right", "spring", 0.25 * index, 0.75 )}
         className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
       >
         <div
@@ -44,7 +44,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn('left', "spring", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] w-full leading-[30px]'
       >
         I am versatile full-stack web developer specializing in building cutting-edge applications. 
         With a strong foundation in Django for backend development and React for frontend design, 

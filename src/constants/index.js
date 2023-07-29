@@ -91,6 +91,11 @@ const technologies = [
     icon: typescript,
 },
 {
+    name: "git",
+    icon: git,
+},
+
+{
     name: "React JS",
     icon: reactjs,
 },
@@ -114,18 +119,15 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
 },
-{
-    name: "Machine Learning",
-    icon: machine,
-},
-{
-    name: "Data Structures and Algorithms",
-    icon: dsa,
-},
-{
-    name: "git",
-    icon: git,
-},
+// {
+//     name: "Machine Learning",
+//     icon: machine,
+// },
+// {
+//     name: "Data Structures and Algorithms",
+//     icon: dsa,
+// },
+
 ];
 
 const experiences = [
