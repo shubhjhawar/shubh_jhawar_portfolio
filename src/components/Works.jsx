@@ -79,7 +79,10 @@ const Works = () => {
 
       <div className='w-full flex'>
          <motion.p
-          variants={fadeIn('left', "spring", 0.1, 1)}
+          variants={fadeIn('left', 'spring', 0.5, 1)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{once:false, amount:0.25}}
           className='mt-3 text-secondary text-[17px] w-full leading-[30px]'
          >
           Following projects showcase my skills and experience through real-world examples of my work. 
