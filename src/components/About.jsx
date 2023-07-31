@@ -46,19 +46,12 @@ const About = () => {
         variants={fadeIn('left', "spring", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] w-full leading-[30px]'
       >
-        I am versatile full-stack web developer specializing in building cutting-edge applications. 
-        With a strong foundation in Django for backend development and React for frontend design, 
-        I create seamless and intuitive user experiences. 
-        Proficient in C++, Python, and JavaScript, 
-        I thrive on tackling complex challenges and adapting to new technologies swiftly. 
-        As a quick learner and a collaborative team player, 
-        I embrace every opportunity to expand my skill set and contribute to innovative projects. 
-        My dedication to excellence drives me to craft fast, scalable, and reliable solutions that address real-world problems. 
-        Additionally, I have a strong background in machine learning and all the aspects related to it, 
-        leveraging data-driven insights to create intelligent and transformative solutions. 
-        Alongside my technical expertise, 
-        I possess a keen interest in competitive coding, honing my problem-solving abilities and 
-        fostering a solution-oriented mindset. 
+        As a versatile full-stack web developer, I specialize in building cutting-edge applications with a strong foundation in Django for backend development and React for frontend design. Proficient in C++, Python, and JavaScript, I thrive on tackling complex challenges with the help of collaboration with my team.<br></br>
+
+        I am a quick learner adapting to new technologies swiftly, embracing every opportunity to expand my skill set and contribute to innovative projects. My dedication to excellence drives me to craft fast, scalable, and reliable solutions that address real-world problems.<br></br>
+
+        In addition to my technical expertise, I have a strong background in machine learning, leveraging data-driven insights to create intelligent and transformative solutions. Alongside this, I enjoy competitive coding, honing my problem-solving abilities and fostering a solution-oriented mindset.<br></br>
+
         Let's embark on a journey to build remarkable digital experiences together!
       </motion.p>
 

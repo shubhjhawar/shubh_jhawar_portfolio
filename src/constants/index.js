@@ -151,7 +151,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Feb 2022 - Aug 2022",
     points: [
-    "Created extensive and useful API’s with the help of of Django Rest Framework and Python for frontend to consume, significantly increased the performance by 55%.",
+    "Created extensive and useful API’s with the help of Django Rest Framework and Python for frontend to consume, significantly increased the performance by 55%.",
     "Collaborated with a small team in a startup environment, thereby fostering rapid development and gained experience of working in agile workflows.",
     "Successfully integrated third-party APIs into the platform, enhancing functionality and saving approximately 20 development hours per week.",
 
@@ -164,10 +164,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sept 2021 - Jan 2022",
     points: [
-    "Collaborated within a team of developers to create cutting-edge websites, leveraging React and JavaScript, and implemented complex functionality for six websites.",
+    "Collaborated within a team of developers to create cutting-edge websites, leveraging React and JavaScript, implemented complex functionality for six websites.",
     "Successfully met launch targets, delivering projects two weeks ahead of schedule.",
     "Assisted in optimizing website performance, resulting in a 20% reduction in page loading times for three websites.",
-    "Developed front-end solutions as per superiors' directives, contributing to the successful delivery of multiple projects with strict adherence to timelines and requirements."
+    "Developed front-end solutions as per superiors' directives, contributing to the successful delivery of multiple projects with strict adherence to timelines and other requirements."
     ],
 },
 {
@@ -177,7 +177,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2021 - July 2021",
     points: [
-    "Single-handedly developed a the APIs of a web application from scratch, meeting the client's demands within a 2-month internship period.",
+    "Single-handedly developed the APIs of a web application from scratch, meeting the client's demands, within a 2-month internship period.",
     "Leveraged backend technologies, including Django and Python and efficiently collaborated with the frontend team, to create a highly performant application capable of handling 10,00+ monthly requests.",
     "Received positive feedback from the client, achieving a satisfaction rating of 95% or higher in project evaluations.",
     "Successfully delivered the project ahead of the agreed-upon schedule, showcasing efficient time management and adherence to deadlines."
@@ -190,10 +190,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Nov 2020 - Jan 2021",
     points: [
-    "Single-handedly developed a the APIs of a web application from scratch, meeting the client's demands within a 2-month internship period.",
-    "Leveraged backend technologies, including Django and Python and efficiently collaborated with the frontend team, to create a highly performant application capable of handling 10,00+ monthly requests.",
-    "Received positive feedback from the client, achieving a satisfaction rating of 95% or higher in project evaluations.",
-    "Successfully delivered the project ahead of the agreed-upon schedule, showcasing efficient time management and adherence to deadlines."
+    "Led a 2-month-long machine learning internship project with remarkable results.",
+    "Achieved a substantial 30% improvement in prediction accuracy compared to the previous model.",
+    "Engineered a highly efficient machine learning pipeline, reducing processing time by 40%.",
+    "Presented project findings at a company-wide seminar, earning recognition for innovation and potential business impact."
     ],
 },
 ];
