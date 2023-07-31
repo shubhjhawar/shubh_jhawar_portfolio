@@ -41,6 +41,10 @@ import coderverse from "./coderverse.png";
 import beatbox from "./beatbox.png";
 import illusiogen from "./illusiogen.png";
 
+import insta from './insta.png';
+import twitter from './twitter.png';
+import linkedin from './linkedin.png';
+
 export {
   logo,
   backend,
@@ -80,5 +84,8 @@ export {
   vidverse,
   beatbox,
   illusiogen,
-  coderverse
+  coderverse,
+  insta,
+  twitter,
+  linkedin
 };

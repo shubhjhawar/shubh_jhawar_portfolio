@@ -29,6 +29,9 @@ cpp,
 sql,
 postgresql,
 machine,
+insta,
+twitter,
+linkedin,
 } from "../assets";
 
 export const navLinks = [
@@ -346,4 +349,19 @@ const projects = [
 },
 ];
 
-export { services, technologies, experiences, testimonials, projects };  
+const footerDetails = [
+    {
+        img:linkedin,
+        link:"https://www.linkedin.com/in/shubh-jhawar-069587192/"
+    },
+    {
+        img:insta,
+        link:"https://www.instagram.com/shubhj_45/"
+    },
+    {
+        img:twitter,
+        link:"https://twitter.com/ShubhJhawar3"
+    }
+]
+
+export { services, technologies, experiences, testimonials, projects, footerDetails };  
