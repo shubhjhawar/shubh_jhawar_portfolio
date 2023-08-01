@@ -57,6 +57,11 @@ const Contact = () => {
       })
   };
 
+  const handleSubmit2 = (e) => {
+    console.log("nothing")
+  }
+
+
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div
@@ -68,7 +73,7 @@ const Contact = () => {
 
         <form
           ref={formRef}
-          onSubmit={handleSubmit}
+          onSubmit={handleSubmit2}
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
