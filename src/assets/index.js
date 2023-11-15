@@ -44,6 +44,8 @@ import illusiogen from "./illusiogen.png";
 import insta from './insta.png';
 import twitter from './twitter.png';
 import linkedin from './linkedin.png';
+import novelnest from "./novelnest.png";
+import skyvoyage from "./skyvoyage.png";
 
 export {
   logo,
@@ -87,5 +89,7 @@ export {
   coderverse,
   insta,
   twitter,
-  linkedin
+  linkedin,
+  novelnest,
+  skyvoyage
 };
