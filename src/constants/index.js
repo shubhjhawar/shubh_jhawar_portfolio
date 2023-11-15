@@ -29,6 +29,8 @@ cpp,
 sql,
 postgresql,
 machine,
+novelnest,
+skyvoyage,
 } from "../assets";
 
 export const navLinks = [
@@ -249,16 +251,16 @@ const projects = [
     live_demo_link: "https://pictopiaaa.netlify.app/"
 },
 {
-    name: "VidVerse",
+    name: "NovelNest",
     description:
-    "web application that provides a platform for users to share and discover short videos. Inspired by TikTok, VidVerse offers a similar user experience, allowing users to upload, like, comment, and explore videos created by others.",
+    "NovelNest is a sophisticated book e-commerce website built with React, offering a seamless and visually appealing experience for book enthusiasts. The design, meticulously crafted in Figma, lends a touch of class to the user interface, making browsing and shopping for books a delight.",
     tags: [
     {
-        name: "NextJS",
+        name: "React",
         color: "blue-text-gradient",
     },
     {
-        name: "TypeScript",
+        name: "GoogleAPI",
         color: "green-text-gradient",
     },
     {
@@ -266,9 +268,9 @@ const projects = [
         color: "pink-text-gradient",
     },
     ],
-    image: vidverse,
-    source_code_link: "https://github.com/shubhjhawar/VidVerse",
-    live_demo_link: "https://vid-verse-lmmk.vercel.app/"
+    image: novelnest,
+    source_code_link: "https://github.com/pallavee-2705/novelnest",
+    live_demo_link: "https://novelnest-gamma.vercel.app/"
 
 },
 {
@@ -342,6 +344,29 @@ const projects = [
     image: coderverse,
     source_code_link: "https://github.com/shubhjhawar/coderverse",
     live_demo_link: "https://coderverse.vercel.app/"
+
+},
+{
+    name: "SkyVoyage",
+    description:
+    "a lightweight and aesthetically pleasing flight booking system. This project allows users to seamlessly sign up or log in, search for flights, and book their desired flights. The frontend is developed using React with Tailwind CSS, while the backend is powered by Django Rest Framework in Python.",
+    tags: [
+    {
+        name: "React",
+        color: "blue-text-gradient",
+    },
+    {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+    },
+    {
+        name: "Django",
+        color: "green-text-gradient",
+    },
+    ],
+    image: skyvoyage,
+    source_code_link: "https://github.com/shubhjhawar/skyvoyage",
+    live_demo_link: "https://skyvoyage.vercel.app/"
 
 },
 ];

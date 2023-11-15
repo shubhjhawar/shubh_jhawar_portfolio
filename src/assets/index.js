@@ -40,6 +40,8 @@ import vidverse from "./vidverse.png";
 import coderverse from "./coderverse.png";
 import beatbox from "./beatbox.png";
 import illusiogen from "./illusiogen.png";
+import novelnest from "./novelnest.png";
+import skyvoyage from "./skyvoyage.png";
 
 export {
   logo,
@@ -80,5 +82,7 @@ export {
   vidverse,
   beatbox,
   illusiogen,
-  coderverse
+  coderverse,
+  novelnest,
+  skyvoyage
 };
