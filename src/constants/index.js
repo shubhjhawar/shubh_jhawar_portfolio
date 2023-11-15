@@ -29,6 +29,9 @@ cpp,
 sql,
 postgresql,
 machine,
+insta,
+twitter,
+linkedin,
 novelnest,
 skyvoyage,
 } from "../assets";
@@ -369,6 +372,45 @@ const projects = [
     live_demo_link: "https://skyvoyage.vercel.app/"
 
 },
+{
+    name: "SkyVoyage",
+    description:
+    "a lightweight and aesthetically pleasing flight booking system. This project allows users to seamlessly sign up or log in, search for flights, and book their desired flights. The frontend is developed using React with Tailwind CSS, while the backend is powered by Django Rest Framework in Python.",
+    tags: [
+    {
+        name: "React",
+        color: "blue-text-gradient",
+    },
+    {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+    },
+    {
+        name: "Django",
+        color: "green-text-gradient",
+    },
+    ],
+    image: skyvoyage,
+    source_code_link: "https://github.com/shubhjhawar/skyvoyage",
+    live_demo_link: "https://skyvoyage.vercel.app/"
+
+},
 ];
 
-export { services, technologies, experiences, testimonials, projects };  
+const footerDetails = [
+    {
+        img:linkedin,
+        link:"https://www.linkedin.com/in/shubh-jhawar-069587192/"
+    },
+    {
+        img:insta,
+        link:"https://www.instagram.com/shubhj_45/"
+    },
+    
+    {
+        img:twitter,
+        link:"https://twitter.com/ShubhJhawar3"
+    }
+]
+
+export { services, technologies, experiences, testimonials, projects, footerDetails };  

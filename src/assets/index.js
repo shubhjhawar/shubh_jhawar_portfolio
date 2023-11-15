@@ -40,6 +40,10 @@ import vidverse from "./vidverse.png";
 import coderverse from "./coderverse.png";
 import beatbox from "./beatbox.png";
 import illusiogen from "./illusiogen.png";
+
+import insta from './insta.png';
+import twitter from './twitter.png';
+import linkedin from './linkedin.png';
 import novelnest from "./novelnest.png";
 import skyvoyage from "./skyvoyage.png";
 
@@ -83,6 +87,9 @@ export {
   beatbox,
   illusiogen,
   coderverse,
+  insta,
+  twitter,
+  linkedin,
   novelnest,
   skyvoyage
 };
