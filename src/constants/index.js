@@ -150,11 +150,11 @@ const experiences = [
     ],
 },
 {
-    title: "Backend Development Intern",
+    title: "Backend Developer",
     company_name: "ShortCast Inc.",
     icon: shortcast,
     iconBg: "#383E56",
-    date: "Feb 2022 - Aug 2022",
+    date: "Jul 2021 – Aug 2022",
     points: [
     "Created extensive and useful API’s with the help of Django Rest Framework and Python for frontend to consume, significantly increased the performance by 55%.",
     "Collaborated with a small team in a startup environment, thereby fostering rapid development and gained experience of working in agile workflows.",
@@ -163,11 +163,11 @@ const experiences = [
     ],
 },
 {
-    title: "Frontend Development Intern",
+    title: "Frontend Developer",
     company_name: "Great Future Technologies Pvt. Ltd.",
     icon: great,
     iconBg: "#E6DEDD",
-    date: "Sept 2021 - Jan 2022",
+    date: "Apr 2020 – Jun 2021",
     points: [
     "Collaborated within a team of developers to create cutting-edge websites, leveraging React and JavaScript, implemented complex functionality for six websites.",
     "Successfully met launch targets, delivering projects two weeks ahead of schedule.",
@@ -180,7 +180,7 @@ const experiences = [
     company_name: "galaxy",
     icon: galaxy,
     iconBg: "#E6DEDD",
-    date: "May 2021 - July 2021",
+    date: "Jan 2020 - Mar 2020",
     points: [
     "Single-handedly developed the APIs of a web application from scratch, meeting the client's demands, within a 2-month internship period.",
     "Leveraged backend technologies, including Django and Python and efficiently collaborated with the frontend team, to create a highly performant application capable of handling 10,00+ monthly requests.",
@@ -347,29 +347,6 @@ const projects = [
     image: coderverse,
     source_code_link: "https://github.com/shubhjhawar/coderverse",
     live_demo_link: "https://coderverse.vercel.app/"
-
-},
-{
-    name: "SkyVoyage",
-    description:
-    "a lightweight and aesthetically pleasing flight booking system. This project allows users to seamlessly sign up or log in, search for flights, and book their desired flights. The frontend is developed using React with Tailwind CSS, while the backend is powered by Django Rest Framework in Python.",
-    tags: [
-    {
-        name: "React",
-        color: "blue-text-gradient",
-    },
-    {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-    },
-    {
-        name: "Django",
-        color: "green-text-gradient",
-    },
-    ],
-    image: skyvoyage,
-    source_code_link: "https://github.com/shubhjhawar/skyvoyage",
-    live_demo_link: "https://skyvoyage.vercel.app/"
 
 },
 {
